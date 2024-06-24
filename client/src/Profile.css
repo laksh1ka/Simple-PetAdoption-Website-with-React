@@ -1,0 +1,18 @@
+.userdetails{
+    color: orange;
+    font-family: cursive;
+    margin-left: 80px;
+}
+.signout{
+    background-color: white;
+    color: orange;
+    margin-left: 80px;
+    width: 200px;
+}
+.signout:hover{
+    background-color: orange;
+    color: white;
+}
+.user{
+    margin-left: 80px;
+}

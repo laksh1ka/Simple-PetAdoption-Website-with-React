@@ -1,0 +1,36 @@
+.main{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/633249bcbb5d5c0860c73644/760641fe-192c-49fe-96c5-a92c731daadc/Second-Chance-Paw-Print-Background-02.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(236, 207, 157);
+  }
+  
+.inputelements{
+    color: orange;
+    font-size: x-large;
+    margin-left: 40px;
+}
+.inputfields{
+    margin-left: 40px;
+    width: 400px;
+}
+.formbox{
+    border: 1px solid black;
+    padding: 40px;
+}
+.postbtn{
+    color: orange;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 100px;
+}
+.postbtn:hover{
+    background-color: orange;
+    color: white;
+}
+.file{
+    background-color: white;
+}

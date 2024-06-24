@@ -1,0 +1,179 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+.searchbar{
+  background-color: white;
+}
+.btn1{
+    display :inline-block;
+    margin-left: 400px;
+    border: none;
+    background-color: transparent;
+  }
+  .btn{
+    display :inline-block;
+    margin-left: 100px;
+    border: none;
+    
+  }
+  .btn1:hover{
+    color: orange;
+  }
+  .btn:hover{
+    color: orange;
+  }
+  .btf{
+    display: inline-block;
+    margin-left: 40px;
+    color: orange;
+    text-decoration: none;
+  }
+  .btf:hover
+  {
+    color: orange;
+  }
+  .btf1{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: larger;
+    color: orange;
+    text-decoration: none;
+  }
+  .btf1:hover
+  {
+    color: orange;
+  }
+  .image{
+    background-image: url('https://img.freepik.com/premium-photo/hyper-realistic-group-cute-dogs_862994-49199.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1500px;
+    border: 1px black solid;
+    height: 300px;
+  }
+  .txtinimage{
+    color: white;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+  }
+  .imgs:hover{
+    transform:scale(1.2);
+  }
+  .pawimg{
+    opacity: 0.4;
+    margin-left:100px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .midpaw{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  .right{
+    width: 700px;
+    height:500px;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+  }
+  .imagewords {
+    position: absolute;
+    top: 50%; /* Adjust to center vertically */
+    left: 50%; /* Adjust to center horizontally */
+    transform: translate(-50%, -50%); /* Center the div exactly */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 10px;
+    text-align: center;
+    z-index: 1; /* Ensure content is above the image */
+    width: 500px;
+
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    height:100px;
+}
+
+.imagewords h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.btm{
+  background-color: lemonchiffon;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2LJ21WSh4H-T4ygQbJYiHUpMTXJaSdbAgCQ&s');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+.explrbtn{
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  color: orange;
+  margin-left: 190px;
+}
+.explrbtn:hover{
+  background-color: orange;
+  color: white;
+}
+.cards{
+  padding: 30px;
+  width: 100%;
+  height: 530px;
+  display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+
+    
+}
+.card:hover{
+  transform:scale(0.9);
+}
+.findbtn{
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  color: orange;
+  margin-left: 30px;
+}
+.findbtn:hover{
+  background-color: orange;
+  color: white;
+}
+
+.card{
+  border: 1px solid black;
+  width: 300px;
+  height: 500px;
+  margin-left: 30px;
+
+}
+
+.details{
+  font-family: cursive;
+  margin-top: 10px;
+  margin-left: 10px;
+}
